@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 90%;
+    line-height: 1.6;
+    color: #7f8c8d;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Styling for the storytelling section */
+h3 {
+    color: #e74c3c;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: #2980b9;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #34495e;
+    line-height: 1.8;
+}
+
+ul li b {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* General link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the map controls */
+.leaflet-control-attribution {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 12px;
+}
